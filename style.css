@@ -441,3 +441,37 @@ body {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
 }
+
+/* Footer style */
+.footer-section {
+  margin-top: 80px;
+  background-color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.footer-line {
+  width: 1122px;
+  height: 1px;
+  background-color: rgba(14, 14, 14, 0.1);
+  margin: 0 auto 32px auto;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.social-icons img:hover {
+  transform: translateY(-4px);
+  transition: 0.3s;
+}
