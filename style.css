@@ -88,4 +88,43 @@ body {
     text-align: right;
 }
 
+/* shared title */
 
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: 0E0E0E;
+  margin-top: 80px;
+  margin-bottom: 32px;
+}
+
+/* pillers section style */
+
+.piller-card-container{
+    display: flex;
+    gap: 24px;
+}
+.piller-card{
+    background-color: white;
+    border-color: rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    width: 25%;
+}
+.piller-card img{
+    width: 64px;
+    margin-bottom: 24px;
+    
+}
+.piller-card h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.piller-card p{
+    font-size: 16px;
+    line-height: 1.2;
+    color: rgba(14, 14, 14, 0.7);
+
+}
